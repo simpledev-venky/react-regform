@@ -1,0 +1,47 @@
+
+*{
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+
+body {
+  
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+header{
+text-align: center;
+background-color:  blue;
+color: white;
+font-style: italic;
+font-size: 1.6rem;
+}
+form,.details{
+width: 80vw;
+margin: 2rem auto;
+border: 2px solid green;
+border-radius: 2rem;
+padding: 1rem;
+}
+form > input {
+display: block;
+margin: .4rem;
+}
+button{
+background-color: blue;
+color: white;
+margin: 2rem 40%;
+border: none;
+cursor: pointer;
+font-style: italic;
+font-size: 1.4rem;
+border-radius: .6rem;
+}
+input[type="radio"]{
+display: inline;
+}
+b{
+color: brown;
+}
